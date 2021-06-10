@@ -4,10 +4,7 @@ let input = prompt("Enter a string:  ");
 
 let string = input;
 
-let inputCount = 0;
-
-while (inputCount < 10) {
+while (input.length <= 10) {
     console.log(input);
     input = input + string;
-    inputCount = inputCount + 1;
 }
